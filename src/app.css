@@ -1,0 +1,11 @@
+@import 'tailwindcss' source(none);
+@source "../src/template.html";
+@config "../tailwind.config.js";
+
+/* With just this line it doesn't work properly */
+@source "../storage/app/private/cms_content/**/*.html";
+
+/* But if you uncomment the next line to force that specific file, it does work */
+/* @source "../storage/app/private/cms_content/some-slug/0.html"; */
+
+/* It also works properly if you remove the "../storage/app/private/cms_content/.gitignore" file */
