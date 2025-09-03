@@ -12,3 +12,6 @@ This repository exists as an example case where the `.gitignore` causes Tailwind
 Once you've followed the setup steps, it should already be triggered.
 
 To show that it's specifically the combination of the glob path with a gitignore, follow the instructions at `./src/app.css`.
+
+> [!NOTE]
+> You might have to restart the vite server, as it seems like Tailwind caches some things that causes the bug to be temporarily resolved until the server is restarted when switching from a working to not working situation.
