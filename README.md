@@ -9,6 +9,6 @@ This repository exists as an example case where the `.gitignore` causes Tailwind
 5. `yarn dev`
 
 ## How to trigger the bug?
-Once you've followed the setup steps, it should already be triggerd.
+Once you've followed the setup steps, it should already be triggered.
 
-To show that it's specifically the combination of the glob paht with a gitignore, follow the instructions at `./src/app.css`.
+To show that it's specifically the combination of the glob path with a gitignore, follow the instructions at `./src/app.css`.
