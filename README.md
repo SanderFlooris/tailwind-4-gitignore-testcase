@@ -1,6 +1,8 @@
 # TailwindCSS 4 gitignore testcase
 This repository exists as an example case where the `.gitignore` causes TailwindCSS to not properly compile the classes when a glob path is used.
 
+The GitHub issue can be found [here](https://github.com/tailwindlabs/tailwindcss/issues/18870).
+
 **Expected result:**
 ![.](./screenshots/expected_result.png)
 
